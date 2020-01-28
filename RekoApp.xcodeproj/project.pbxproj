@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551D767F22577B12006ACAC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D767E22577B12006ACAC9 /* HomeViewController.swift */; };
+		551D768222577F15006ACAC9 /* LocalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D768122577F15006ACAC9 /* LocalUser.swift */; };
+		55339ACD2264C1360084CEE5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55339ACC2264C1360084CEE5 /* Product.swift */; };
+		5569F5AE2271EA18000502D6 /* ProductLocationsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F5AD2271EA18000502D6 /* ProductLocationsListTableViewCell.swift */; };
+		55B5043122705A1900DA2645 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5043022705A1900DA2645 /* AddProductViewController.swift */; };
+		55B5043322705A6400DA2645 /* OrdersForProducerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5043222705A6300DA2645 /* OrdersForProducerViewController.swift */; };
+		55B5043522707B8800DA2645 /* producersOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5043422707B8800DA2645 /* producersOrderTableViewCell.swift */; };
+		55C5A7C62254B7D6007CA1EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7C52254B7D6007CA1EC /* AppDelegate.swift */; };
+		55C5A7C82254B7D6007CA1EC /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7C72254B7D6007CA1EC /* ProductListViewController.swift */; };
+		55C5A7CB2254B7D6007CA1EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A7C92254B7D6007CA1EC /* Main.storyboard */; };
+		55C5A7CD2254B7D7007CA1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A7CC2254B7D7007CA1EC /* Assets.xcassets */; };
+		55C5A7D02254B7D7007CA1EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A7CE2254B7D7007CA1EC /* LaunchScreen.storyboard */; };
+		55C5A7DA2254C071007CA1EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A7D92254C071007CA1EC /* GoogleService-Info.plist */; };
+		55C5A7DC2254C43A007CA1EC /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7DB2254C43A007CA1EC /* ProductCell.swift */; };
+		55C5A7DE2254CE1D007CA1EC /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7DD2254CE1D007CA1EC /* DatabaseHandler.swift */; };
+		55C5A7E02254CEFF007CA1EC /* DataDownloadDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7DF2254CEFF007CA1EC /* DataDownloadDelegate.swift */; };
+		55C5A7E222550526007CA1EC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7E122550526007CA1EC /* RegisterViewController.swift */; };
+		55C5A7E42255057D007CA1EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7E32255057D007CA1EC /* MainViewController.swift */; };
+		55C5A7E82255FC4E007CA1EC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A7E72255FC4E007CA1EC /* SignInViewController.swift */; };
+		55CBBE1022677E1200DA223D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBBE0F22677E1200DA223D /* Order.swift */; };
+		55CBBE1222678A6500DA223D /* MyOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBBE1122678A6500DA223D /* MyOrdersViewController.swift */; };
+		55CBBE142267951F00DA223D /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBBE132267951F00DA223D /* OrderTableViewCell.swift */; };
+		55CC763A227B6926000DEC5D /* RadioButtonStateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC7639227B6926000DEC5D /* RadioButtonStateDelegate.swift */; };
+		55CD5B3A2265D6E3009C1E1C /* productDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5B392265D6E3009C1E1C /* productDetailViewController.swift */; };
+		55D1A56A22662CDB00ADCAD9 /* SelectedCellHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1A56922662CDB00ADCAD9 /* SelectedCellHelper.swift */; };
+		55E745DD225CAFBE00EB40B4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E745DC225CAFBE00EB40B4 /* MapViewController.swift */; };
+		55E745DF225CB27800EB40B4 /* LocalUserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E745DE225CB27800EB40B4 /* LocalUserHandler.swift */; };
+		55E745E1225CE35100EB40B4 /* extension UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E745E0225CE35100EB40B4 /* extension UIViewController.swift */; };
+		55E745E3225DF00700EB40B4 /* RekoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E745E2225DF00700EB40B4 /* RekoLocation.swift */; };
+		55E7462A225F54CF00EB40B4 /* RekoAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E74629225F54CF00EB40B4 /* RekoAnnotations.swift */; };
+		55FAECA92277080B00637D19 /* extension String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAECA82277080B00637D19 /* extension String.swift */; };
+		55FAECAB2277734B00637D19 /* ImageLoadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAECAA2277734B00637D19 /* ImageLoadHelper.swift */; };
+		55FAECAD22782C6500637D19 /* EditProductHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAECAC22782C6500637D19 /* EditProductHelper.swift */; };
+		55FC1A0D226B46AB00C24919 /* ProducerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC1A0C226B46AB00C24919 /* ProducerViewController.swift */; };
+		B685720406D13AFBF8CDDEFB /* Pods_RekoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470D35372A712CA0FD3B3AD7 /* Pods_RekoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4435B29A7638A610A1F9DD16 /* Pods-RekoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RekoApp.debug.xcconfig"; path = "Target Support Files/Pods-RekoApp/Pods-RekoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		470D35372A712CA0FD3B3AD7 /* Pods_RekoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RekoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551D767E22577B12006ACAC9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		551D768122577F15006ACAC9 /* LocalUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUser.swift; sourceTree = "<group>"; };
+		55339ACC2264C1360084CEE5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5569F5AD2271EA18000502D6 /* ProductLocationsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductLocationsListTableViewCell.swift; sourceTree = "<group>"; };
+		55B5043022705A1900DA2645 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		55B5043222705A6300DA2645 /* OrdersForProducerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrdersForProducerViewController.swift; path = "/Users/sandrasundqvist/SwiftProjects/RekoApp/RekoApp/ViewControllers And ViewComponents/ProducerViews/OrdersForProducerViewController.swift"; sourceTree = "<absolute>"; };
+		55B5043422707B8800DA2645 /* producersOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = producersOrderTableViewCell.swift; sourceTree = "<group>"; };
+		55C5A7C22254B7D6007CA1EC /* RekoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RekoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C5A7C52254B7D6007CA1EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55C5A7C72254B7D6007CA1EC /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		55C5A7CA2254B7D6007CA1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55C5A7CC2254B7D7007CA1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C5A7CF2254B7D7007CA1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55C5A7D12254B7D7007CA1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C5A7D92254C071007CA1EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55C5A7DB2254C43A007CA1EC /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		55C5A7DD2254CE1D007CA1EC /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		55C5A7DF2254CEFF007CA1EC /* DataDownloadDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloadDelegate.swift; sourceTree = "<group>"; };
+		55C5A7E122550526007CA1EC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		55C5A7E32255057D007CA1EC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55C5A7E72255FC4E007CA1EC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		55CBBE0F22677E1200DA223D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		55CBBE1122678A6500DA223D /* MyOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersViewController.swift; sourceTree = "<group>"; };
+		55CBBE132267951F00DA223D /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		55CC7639227B6926000DEC5D /* RadioButtonStateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonStateDelegate.swift; sourceTree = "<group>"; };
+		55CD5B392265D6E3009C1E1C /* productDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetailViewController.swift; sourceTree = "<group>"; };
+		55D1A56922662CDB00ADCAD9 /* SelectedCellHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCellHelper.swift; sourceTree = "<group>"; };
+		55E745DC225CAFBE00EB40B4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		55E745DE225CB27800EB40B4 /* LocalUserHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserHandler.swift; sourceTree = "<group>"; };
+		55E745E0225CE35100EB40B4 /* extension UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension UIViewController.swift"; sourceTree = "<group>"; };
+		55E745E2225DF00700EB40B4 /* RekoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekoLocation.swift; sourceTree = "<group>"; };
+		55E74629225F54CF00EB40B4 /* RekoAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekoAnnotations.swift; sourceTree = "<group>"; };
+		55E7462E2260C79600EB40B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		55FAECA82277080B00637D19 /* extension String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension String.swift"; sourceTree = "<group>"; };
+		55FAECAA2277734B00637D19 /* ImageLoadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadHelper.swift; sourceTree = "<group>"; };
+		55FAECAC22782C6500637D19 /* EditProductHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductHelper.swift; sourceTree = "<group>"; };
+		55FC1A0C226B46AB00C24919 /* ProducerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducerViewController.swift; sourceTree = "<group>"; };
+		67DC617CC28FA8F8287A50C5 /* Pods-RekoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RekoApp.release.xcconfig"; path = "Target Support Files/Pods-RekoApp/Pods-RekoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C5A7BF2254B7D6007CA1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B685720406D13AFBF8CDDEFB /* Pods_RekoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0164506B537E9226C2F20AF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4435B29A7638A610A1F9DD16 /* Pods-RekoApp.debug.xcconfig */,
+				67DC617CC28FA8F8287A50C5 /* Pods-RekoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0FABC2CD3D6953D28E335907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				470D35372A712CA0FD3B3AD7 /* Pods_RekoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		551D768022577F04006ACAC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				551D768122577F15006ACAC9 /* LocalUser.swift */,
+				55E745DE225CB27800EB40B4 /* LocalUserHandler.swift */,
+				55E745E2225DF00700EB40B4 /* RekoLocation.swift */,
+				55E74629225F54CF00EB40B4 /* RekoAnnotations.swift */,
+				55339ACC2264C1360084CEE5 /* Product.swift */,
+				55D1A56922662CDB00ADCAD9 /* SelectedCellHelper.swift */,
+				55CBBE0F22677E1200DA223D /* Order.swift */,
+				55FAECAA2277734B00637D19 /* ImageLoadHelper.swift */,
+				55FAECAC22782C6500637D19 /* EditProductHelper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55B5042D2270545F00DA2645 /* signInUpViews */ = {
+			isa = PBXGroup;
+			children = (
+				55C5A7E72255FC4E007CA1EC /* SignInViewController.swift */,
+				55C5A7E122550526007CA1EC /* RegisterViewController.swift */,
+				55C5A7E32255057D007CA1EC /* MainViewController.swift */,
+			);
+			path = signInUpViews;
+			sourceTree = "<group>";
+		};
+		55B5042E2270549600DA2645 /* consumerViews */ = {
+			isa = PBXGroup;
+			children = (
+				55C5A7C72254B7D6007CA1EC /* ProductListViewController.swift */,
+				55C5A7DB2254C43A007CA1EC /* ProductCell.swift */,
+				55CD5B392265D6E3009C1E1C /* productDetailViewController.swift */,
+				55CBBE1122678A6500DA223D /* MyOrdersViewController.swift */,
+				55E745DC225CAFBE00EB40B4 /* MapViewController.swift */,
+				551D767E22577B12006ACAC9 /* HomeViewController.swift */,
+				55CBBE132267951F00DA223D /* OrderTableViewCell.swift */,
+			);
+			path = consumerViews;
+			sourceTree = "<group>";
+		};
+		55B5042F227054A800DA2645 /* ProducerViews */ = {
+			isa = PBXGroup;
+			children = (
+				55FC1A0C226B46AB00C24919 /* ProducerViewController.swift */,
+				55B5043022705A1900DA2645 /* AddProductViewController.swift */,
+				55B5043222705A6300DA2645 /* OrdersForProducerViewController.swift */,
+				55B5043422707B8800DA2645 /* producersOrderTableViewCell.swift */,
+				5569F5AD2271EA18000502D6 /* ProductLocationsListTableViewCell.swift */,
+				55CC7639227B6926000DEC5D /* RadioButtonStateDelegate.swift */,
+			);
+			path = ProducerViews;
+			sourceTree = "<group>";
+		};
+		55C5A7B92254B7D6007CA1EC = {
+			isa = PBXGroup;
+			children = (
+				55C5A7C42254B7D6007CA1EC /* RekoApp */,
+				55C5A7C32254B7D6007CA1EC /* Products */,
+				0164506B537E9226C2F20AF7 /* Pods */,
+				0FABC2CD3D6953D28E335907 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55C5A7C32254B7D6007CA1EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C5A7C22254B7D6007CA1EC /* RekoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C5A7C42254B7D6007CA1EC /* RekoApp */ = {
+			isa = PBXGroup;
+			children = (
+				55C5A7C52254B7D6007CA1EC /* AppDelegate.swift */,
+				551D768022577F04006ACAC9 /* Model */,
+				55C5A7EB225604DD007CA1EC /* Extensions */,
+				55C5A7E6225505AC007CA1EC /* Database  */,
+				55C5A7E522550584007CA1EC /* ViewControllers And ViewComponents */,
+				55C5A7C92254B7D6007CA1EC /* Main.storyboard */,
+				55C5A7CC2254B7D7007CA1EC /* Assets.xcassets */,
+				55C5A7CE2254B7D7007CA1EC /* LaunchScreen.storyboard */,
+				55C5A7D12254B7D7007CA1EC /* Info.plist */,
+				55C5A7D92254C071007CA1EC /* GoogleService-Info.plist */,
+			);
+			path = RekoApp;
+			sourceTree = "<group>";
+		};
+		55C5A7E522550584007CA1EC /* ViewControllers And ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				55B5042F227054A800DA2645 /* ProducerViews */,
+				55B5042E2270549600DA2645 /* consumerViews */,
+				55B5042D2270545F00DA2645 /* signInUpViews */,
+			);
+			path = "ViewControllers And ViewComponents";
+			sourceTree = "<group>";
+		};
+		55C5A7E6225505AC007CA1EC /* Database  */ = {
+			isa = PBXGroup;
+			children = (
+				55C5A7DD2254CE1D007CA1EC /* DatabaseHandler.swift */,
+				55C5A7DF2254CEFF007CA1EC /* DataDownloadDelegate.swift */,
+			);
+			path = "Database ";
+			sourceTree = "<group>";
+		};
+		55C5A7EB225604DD007CA1EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55E745E0225CE35100EB40B4 /* extension UIViewController.swift */,
+				55FAECA82277080B00637D19 /* extension String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C5A7C12254B7D6007CA1EC /* RekoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C5A7D42254B7D7007CA1EC /* Build configuration list for PBXNativeTarget "RekoApp" */;
+			buildPhases = (
+				C972FDD963BC240B5692CAC3 /* [CP] Check Pods Manifest.lock */,
+				55C5A7BE2254B7D6007CA1EC /* Sources */,
+				55C5A7BF2254B7D6007CA1EC /* Frameworks */,
+				55C5A7C02254B7D6007CA1EC /* Resources */,
+				B8E20381EF9F12601A2AF366 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RekoApp;
+			productName = RekoApp;
+			productReference = 55C5A7C22254B7D6007CA1EC /* RekoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C5A7BA2254B7D6007CA1EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sandra Sundqvist";
+				TargetAttributes = {
+					55C5A7C12254B7D6007CA1EC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 55C5A7BD2254B7D6007CA1EC /* Build configuration list for PBXProject "RekoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C5A7B92254B7D6007CA1EC;
+			productRefGroup = 55C5A7C32254B7D6007CA1EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C5A7C12254B7D6007CA1EC /* RekoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C5A7C02254B7D6007CA1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C5A7D02254B7D7007CA1EC /* LaunchScreen.storyboard in Resources */,
+				55C5A7DA2254C071007CA1EC /* GoogleService-Info.plist in Resources */,
+				55C5A7CD2254B7D7007CA1EC /* Assets.xcassets in Resources */,
+				55C5A7CB2254B7D6007CA1EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8E20381EF9F12601A2AF366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RekoApp/Pods-RekoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RekoApp/Pods-RekoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RekoApp/Pods-RekoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C972FDD963BC240B5692CAC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RekoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C5A7BE2254B7D6007CA1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C5A7C82254B7D6007CA1EC /* ProductListViewController.swift in Sources */,
+				55C5A7E02254CEFF007CA1EC /* DataDownloadDelegate.swift in Sources */,
+				55E7462A225F54CF00EB40B4 /* RekoAnnotations.swift in Sources */,
+				55CBBE142267951F00DA223D /* OrderTableViewCell.swift in Sources */,
+				55CBBE1022677E1200DA223D /* Order.swift in Sources */,
+				55E745E1225CE35100EB40B4 /* extension UIViewController.swift in Sources */,
+				55C5A7DC2254C43A007CA1EC /* ProductCell.swift in Sources */,
+				55CD5B3A2265D6E3009C1E1C /* productDetailViewController.swift in Sources */,
+				55FC1A0D226B46AB00C24919 /* ProducerViewController.swift in Sources */,
+				55E745DF225CB27800EB40B4 /* LocalUserHandler.swift in Sources */,
+				55C5A7E222550526007CA1EC /* RegisterViewController.swift in Sources */,
+				55C5A7E82255FC4E007CA1EC /* SignInViewController.swift in Sources */,
+				55C5A7DE2254CE1D007CA1EC /* DatabaseHandler.swift in Sources */,
+				5569F5AE2271EA18000502D6 /* ProductLocationsListTableViewCell.swift in Sources */,
+				55CC763A227B6926000DEC5D /* RadioButtonStateDelegate.swift in Sources */,
+				55D1A56A22662CDB00ADCAD9 /* SelectedCellHelper.swift in Sources */,
+				55339ACD2264C1360084CEE5 /* Product.swift in Sources */,
+				55B5043522707B8800DA2645 /* producersOrderTableViewCell.swift in Sources */,
+				55E745DD225CAFBE00EB40B4 /* MapViewController.swift in Sources */,
+				55B5043122705A1900DA2645 /* AddProductViewController.swift in Sources */,
+				55B5043322705A6400DA2645 /* OrdersForProducerViewController.swift in Sources */,
+				55C5A7E42255057D007CA1EC /* MainViewController.swift in Sources */,
+				55CBBE1222678A6500DA223D /* MyOrdersViewController.swift in Sources */,
+				55FAECAB2277734B00637D19 /* ImageLoadHelper.swift in Sources */,
+				55E745E3225DF00700EB40B4 /* RekoLocation.swift in Sources */,
+				551D767F22577B12006ACAC9 /* HomeViewController.swift in Sources */,
+				55FAECA92277080B00637D19 /* extension String.swift in Sources */,
+				55FAECAD22782C6500637D19 /* EditProductHelper.swift in Sources */,
+				551D768222577F15006ACAC9 /* LocalUser.swift in Sources */,
+				55C5A7C62254B7D6007CA1EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55C5A7C92254B7D6007CA1EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C5A7CA2254B7D6007CA1EC /* Base */,
+				55E7462E2260C79600EB40B4 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55C5A7CE2254B7D7007CA1EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C5A7CF2254B7D7007CA1EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C5A7D22254B7D7007CA1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55C5A7D32254B7D7007CA1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C5A7D52254B7D7007CA1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4435B29A7638A610A1F9DD16 /* Pods-RekoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AJP4BN72C;
+				INFOPLIST_FILE = RekoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SaSu.RekoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55C5A7D62254B7D7007CA1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DC617CC28FA8F8287A50C5 /* Pods-RekoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AJP4BN72C;
+				INFOPLIST_FILE = RekoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SaSu.RekoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C5A7BD2254B7D6007CA1EC /* Build configuration list for PBXProject "RekoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C5A7D22254B7D7007CA1EC /* Debug */,
+				55C5A7D32254B7D7007CA1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C5A7D42254B7D7007CA1EC /* Build configuration list for PBXNativeTarget "RekoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C5A7D52254B7D7007CA1EC /* Debug */,
+				55C5A7D62254B7D7007CA1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C5A7BA2254B7D6007CA1EC /* Project object */;
+}

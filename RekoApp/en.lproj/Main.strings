@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "18x-Qz-GoE"; */
+"18x-Qz-GoE.text" = "Password:";
+
+/* Class = "UIButton"; normalTitle = "For producers"; ObjectID = "3RI-5h-eqZ"; */
+"3RI-5h-eqZ.normalTitle" = "For producers";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "4x0-np-dj6"; */
+"4x0-np-dj6.text" = "or";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "7bC-Rw-cfA"; */
+"7bC-Rw-cfA.text" = "Password:";
+
+/* Class = "UILabel"; text = "TESTING TESTING "; ObjectID = "7n8-dj-wu4"; */
+"7n8-dj-wu4.text" = "TESTING TESTING ";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "AEJ-Xz-qty"; */
+"AEJ-Xz-qty.normalTitle" = "Sign in";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Be8-L8-Hev"; */
+"Be8-L8-Hev.title" = "Item";
+
+/* Class = "UILabel"; text = "Username: "; ObjectID = "DWt-Mw-vKC"; */
+"DWt-Mw-vKC.text" = "Username: ";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "F2Y-5o-juO"; */
+"F2Y-5o-juO.text" = "Welcome";
+
+/* Class = "UIButton"; normalTitle = "Change Reko-location"; ObjectID = "FI7-Q0-10z"; */
+"FI7-Q0-10z.normalTitle" = "Change Reko-location";
+
+/* Class = "UILabel"; text = "(Will be displayed for producers in orders)"; ObjectID = "Fp7-8m-cka"; */
+"Fp7-8m-cka.text" = "(Will be displayed for producers in orders)";
+
+/* Class = "UIButton"; normalTitle = "Register new account"; ObjectID = "JQm-Px-tq5"; */
+"JQm-Px-tq5.normalTitle" = "Register new account";
+
+/* Class = "UIBarButtonItem"; title = "Log out"; ObjectID = "M7j-Dg-0gl"; */
+"M7j-Dg-0gl.title" = "Log out";
+
+/* Class = "UIBarButtonItem"; title = "search"; ObjectID = "Nfy-X9-841"; */
+"Nfy-X9-841.title" = "search";
+
+/* Class = "UIButton"; normalTitle = "My orders"; ObjectID = "RZL-UV-vnA"; */
+"RZL-UV-vnA.normalTitle" = "My orders";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "aXY-x3-bWG"; */
+"aXY-x3-bWG.text" = "E-mail:";
+
+/* Class = "UIButton"; normalTitle = "Show/ order products "; ObjectID = "bNF-hE-bfz"; */
+"bNF-hE-bfz.normalTitle" = "Show/ order products ";
+
+/* Class = "UIBarButtonItem"; title = "map"; ObjectID = "cTY-jr-5XJ"; */
+"cTY-jr-5XJ.title" = "map";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "m86-T4-uts"; */
+"m86-T4-uts.text" = "E-mail:";
+
+/* Class = "UITextField"; placeholder = "ex. email@live.com..."; ObjectID = "onf-7C-osM"; */
+"onf-7C-osM.placeholder" = "ex. email@live.com...";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "qtF-n9-sS5"; */
+"qtF-n9-sS5.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "sut-NU-zf8"; */
+"sut-NU-zf8.normalTitle" = "Sign in";
+
+/* Class = "UILabel"; text = "Search:"; ObjectID = "txc-PA-VvZ"; */
+"txc-PA-VvZ.text" = "Search:";
